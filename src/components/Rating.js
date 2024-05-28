@@ -9,7 +9,7 @@ const Rating = ({ name, rate, content }) => {
     <div>
       <h3>{name}</h3>
       <p>{content}</p>
-      <div>
+      <div> <h3 className="rating">Average Rating: </h3>
         <span>{filledStars}</span>
         <span>{emptyStars}</span>
       </div>
